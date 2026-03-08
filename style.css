@@ -1,0 +1,50 @@
+body{
+    margin:0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:100vh;
+}
+.container{
+    background-color: #6C757D;
+    height:330px;  
+}
+.screen{
+    height:100px;
+    width:200px;
+    margin-top:15px;
+    margin-left:15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    font-size: 20px;
+    background-color: #CED4DA;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+.result{
+    white-space: nowrap;
+}
+
+.buttons{
+    height:160px;
+    width:230px;
+    
+}
+.firstline,.secondline, .thirdline,.fourthline{
+    display: flex;
+    justify-content: space-evenly;
+}
+.no{
+    height:35px;
+    width:35px;
+    border-radius: 8px;
+    background-color:#E5E5E5 ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.no:hover{
+    cursor:pointer;
+    background-color:  #343A40 ;
+}
